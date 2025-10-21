@@ -1,9 +1,9 @@
 import streamlit as st
 from pypdf import PdfWriter
 
-st.set_page_config(page_title="PDF結合アプリ", page_icon="📚")
+st.set_page_config(page_title="PDF Merger", page_icon="📚")
 
-st.title("📚 PDF結合アプリ（Web版）")
+st.title("PDF Merger）")
 st.write("複数のPDFファイルをアップロードして結合できます。")
 
 uploaded_files = st.file_uploader("PDFファイルを選択（複数可）", type="pdf", accept_multiple_files=True)
