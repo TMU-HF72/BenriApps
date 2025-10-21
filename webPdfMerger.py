@@ -1,3 +1,7 @@
+import sys, subprocess
+print("Python executable:", sys.executable)
+subprocess.run([sys.executable, "-m", "pip", "list"])
+
 import streamlit as st
 from pypdf import PdfWriter
 
